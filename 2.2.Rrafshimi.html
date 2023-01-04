@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rrafshimi-Float_2</title>
+
+    <style>
+
+
+
+        body {background-color: aliceblue;}
+
+        p {font-size: 20px;
+           width: 33%;
+           background-color: aqua;
+           border: 1px solid black; 
+           margin: 5px;
+           padding: 15px;
+          
+          }
+
+        .left {float: left;}
+
+        .right {float: right;}
+
+    </style>
+</head>
+<body>
+    <h1>Rrafshimi</h1>
+    <p class="left">
+        1. Rrafshimi ne CSS behet permes vetis float: e cila pranon tri velra; 1.left (Rrafshim majtas) 2.right  (rrafshim djathtas) dhe 3.none (pa rrafshim)...
+    </p>
+    <p class="right">
+        2. Rrafshimi ne CSS behet permes vetis float: e cila pranon tri velra; 1.left (Rrafshim majtas) 2.right  (rrafshim djathtas) dhe 3.none (pa rrafshim)...
+    </p>
+    <div class="articles">
+        
+
+        <p>
+            3. Rrafshimi ne CSS behet permes vetis float: e cila pranon tri velra; 1.left (Rrafshim majtas) 2.right  (rrafshim djathtas) dhe 3.none (pa rrafshim)...
+        </p>
+        <p>
+            4. Rrafshimi ne CSS behet permes vetis float: e cila pranon tri velra; 1.left (Rrafshim majtas) 2.right  (rrafshim djathtas) dhe 3.none (pa rrafshim)...
+        </p>
+        <p>
+            5. Rrafshimi ne CSS behet permes vetis float: e cila pranon tri velra; 1.left (Rrafshim majtas) 2.right  (rrafshim djathtas) dhe 3.none (pa rrafshim)...
+        </p>
+        <p>
+           6.  Pse .articles {border: 2px solid black;
+                padding: 10px;} border ka mbet i parentit i articles ka mbet larte e nuk i ka mbeshtjell 6 elementet? -> <b> Kur te gjithe femijet e nje elementi kane float atehere prindi nuk merr width te caktuar.</b> Ky problem njihet si problemi i prindit qe te gjithe femijet i ka me vetin float. DMTH kur e kemi nje parent si articles nese te 6 elementet jane rrafshuar (floating) atehere krijohet ky problem. <strong>Per ta rregulluar kete problem ekzistojne disa menyra por me easy eshte</strong> <i>overflow: auto;</i> 
+
+        </p>
+    </div>
+</body>
+</html>
