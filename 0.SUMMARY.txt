@@ -1,1 +1,7 @@
 1. Hijezimi
+
+5.1. @keyframes mundesojne qe ti me i tregu pergjate kohes te animacionit cka me ndodhe.
+Per secilin element qe ti don me pas animacion duhet nga nje @keyframe 
+
+7.1. Flexbox - me kombinimin e disa vetive mundeson strukturimin e lehte te permbajtjes. Per ta realizuar kete duhet ta kemi prindin dhe femijet. 
+Vetit e Flexbox aplikohen tek prindi, mirepo ka veti specifike qe mund te aplikohen edhe tek  femijet. 
