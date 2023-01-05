@@ -5,3 +5,7 @@ Per secilin element qe ti don me pas animacion duhet nga nje @keyframe
 
 7.1. Flexbox - me kombinimin e disa vetive mundeson strukturimin e lehte te permbajtjes. Per ta realizuar kete duhet ta kemi prindin dhe femijet. 
 Vetit e Flexbox aplikohen tek prindi, mirepo ka veti specifike qe mund te aplikohen edhe tek  femijet. 
+
+8.1. STRK fix definohen me pixela, em, rem. Nese kemi 100px atehere eshte 100px fiks per cdo pajisje, e ka apo nuk e ka ekranin aq.
+
+8.2. STRK e adaptueshme (pershtatshme) definohen me perqindje. Nese e keni 100% atehere sado qe ekrani ka px shfaqet aq sa ka.
